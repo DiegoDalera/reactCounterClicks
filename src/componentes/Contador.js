@@ -1,14 +1,15 @@
-import React from "react";
+import './Contador.css'
+import React from "react"
 
-function Contador ({ numClicks }){
 
-    return
-    (
+
+function Contador({ numClicks }) {
+
+    return (
         <div className="contador">
-            {numClicks}
+            { numClicks }
+
         </div>
-
-
     )
 }
 
